@@ -1,0 +1,160 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    /* border: 2px solid blue; */
+    display: flex;
+justify-content: space-around;
+margin: auto;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav p{
+    padding-left: 13px;
+}
+
+ul{
+    display: flex;
+}
+li{  
+    padding:16px 18px ;
+}
+ li:hover{
+    background-color: yellowgreen;
+    color: rgb(255, 0, 140);
+ }
+ .bir{
+    
+    margin-top: 14px;
+    margin-bottom: 33px;
+    width: 1340px;
+    height: 360px;
+ }
+ main{
+   margin: auto;
+    display: flex;
+    margin-left: 350px;
+
+ }
+ div{
+    width: 186px;
+    height: 255px;
+    display: block;
+    margin-right: 18px;
+    background: #FFF;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.50);
+
+ }
+ h4{
+   color: orange;
+    text-align: center;
+    padding: 5px 20px 60px;
+    margin-bottom: 2px;
+ }
+ div img{
+    padding-top: 18px;
+    margin-bottom: 10px;
+ }
+ hr{
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+  /* hr:nth-child(3){
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }  */
+ .one h4{
+   padding: 5px 20px 40px;
+ }
+ .two h4{
+   padding: 5px 20px 40px;
+ }
+ div h4{
+   padding: 5px 20px 60px;
+ }
+ input{
+   color: #fff;
+   background-color: orange;
+ }
+ section{ 
+ display: flex;
+ margin-left: 297px;
+ /* justify-content: space-around; */
+
+ }
+ section nav h4{
+   color: #5E5E5E;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 10px;
+margin-top: 60px;
+
+ }
+ section .five p{
+   margin-bottom: 50px;
+   width: 554px;
+height: 60px;
+color: #000;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+ }
+ section .five{
+   
+   display: block;
+   margin-right: 50px;
+   margin-left: 50px;
+ }
+ section div{
+   height: 70px;
+   width: 200px;
+   display: flex;
+ }
+section .six{ 
+   display: block; 
+}
+section .six img{
+   margin-right: 20px;
+   width: 48px;
+height: 47px;
+}
+.eight{
+   margin-top: 40px;
+   margin-left: 345px;
+}
+footer{
+   margin-top: 50px;
+   width: 100%;
+   background-color: orangered;
+}
+.nine{
+   background-color: orangered;
+   width: 1200px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 360px;
+   margin: auto;
+padding-right: 100px;
+/* opacity:0.3; */
+
+}
+.eleven{
+   color: #fff;
+   background-color: orangered;
+   width: 400px;
+   margin-left: 246px;
+}
+.ten{
+   color: #fff;
+   background-color: orangered;
+   width: 400px;
+   /* background-color: orangered;  */
+}

@@ -1,0 +1,309 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-image: url(./bg_img\ 1.png);
+    background-size: cover;
+}
+ header nav{
+ max-width: 1200px;
+ margin: auto;
+ padding-top: 20px;
+ margin-bottom: 150px;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+header nav i{
+    color: white;
+}
+header nav ul li {
+    padding: 33px 40px;
+}
+header nav ul li:hover{
+    background-color: rgb(78, 159, 13);
+}
+header nav ul li a{
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    text-transform: uppercase;
+}
+header nav p{
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 159, 13);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.header_heading{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 15px;
+
+}
+.header_heading h1{
+    color: rgb(78, 159, 13);
+    font-family: Raleway;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 85px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.header_heading p:nth-of-type(1){
+    color: rgb(78, 159, 13);
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    text-transform: lowercase;
+}
+.header_heading p:nth-of-type(2){
+    padding:30px 0px 50px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+.header_heading button {
+    border-radius: 50px;
+    width: 250px;
+    height: 63px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    background: none;
+    margin-bottom: 200px;
+}
+.header_heading button:hover{
+    background-color: rgb(78, 159, 13);
+}
+main{
+    background-color: rgb(0, 0, 0);
+   
+}
+ .main_ul{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: first baseline;
+   padding-bottom: 80px;
+   padding-top: 40px;
+   
+ }
+ .main_ul li{
+    padding-left: 40px;
+    color: rgb(122, 122, 122);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-transform: capitalize;
+ }
+ .main_ul li a:hover{
+  color: rgb(78, 159, 13);
+ }
+ .container_grid_element1 h2{
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+ }
+ 
+ .container_grid_element1_paragraph p:nth-of-type(1){
+    color: rgb(78, 159, 13);
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+ }
+ .container_grid_element1_paragraph p:nth-of-type(2){
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    width: 340px;
+    height: 70px;
+ }
+   .container_grid_element1{
+    width: 350px;
+    background-image: url(./Без\ имени-1\ 2.png);
+    background-repeat: no-repeat;
+   }
+   .container_grid_element1 h2{
+    margin-bottom: 330px;
+    position: relative;
+    top:160px;
+    left: 55px;
+    right: 55px;
+    bottom: 160px;
+   }
+   .container_grid {
+    /* border: 2px solid blueviolet; */
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+   }
+   .main_retsept{
+    background-image: url(./section_bg\ 1.png);
+    background-size: cover;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin: auto;
+   }
+   .main_retsept_block{
+    max-width: 1200px;
+    margin: auto;
+   }
+   .main_retsept h3{
+    color: rgb(78, 159, 13);
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 42px;
+    margin-top: 42px;
+    margin-bottom: 12px;
+   }
+   .main_retsept hr{
+     max-width: 200px;
+    height: 2px;
+    margin: auto;
+    background-color: rgb(78, 159, 13);
+    margin-bottom: 50px;
+   }
+   .main_retsept p{
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+   }
+   .flial{
+    color: rgb(78, 159, 13);
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 42px;
+   }
+   iframe{
+    width: 100%;
+    height: 600px;
+   }
+   .footer_p{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+  .footer_p p:nth-of-type(1){
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 159, 13);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .footer_p p:nth-of-type(2){
+    color:rgb(78, 159, 13);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    text-transform: uppercase;
+  } 
+  .footer{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .footer ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer ul li a{
+    padding-left: 40px;
+    color: rgb(122, 122, 122);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-transform: capitalize;
+  }
+ @media  screen and (max-width:450px) {
+    .header_heading h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+ }
+  .footer p{
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+ @media  screen and (max-width:1200px){
+    .container_grid {
+        
+        display: grid;
+        grid-template-columns: auto auto ;
+
+       }
+ }
+ @media  screen and (max-width:840px){
+    .container_grid {
+        
+        display: grid;
+        grid-template-columns:  auto ;
+
+       }
+ }

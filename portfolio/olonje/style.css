@@ -1,0 +1,155 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    padding-left: 15px;
+}
+nav{ max-width: 1200px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 200px;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li{
+    margin-left: 90px;
+}
+ul li:hover{
+    color:#FA4A0C;
+}
+main{
+    background-image: url(./Rectangle\ 48.png);
+    background-size: cover;
+}
+.parent{
+    max-width: 1000px;
+    margin: auto;
+}
+.parent p:nth-child(1){
+    padding-top: 73px;
+    padding-bottom: 10px;
+    color: #F6F6F6;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+.parent h1{
+    padding-bottom: 25px;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 58px;
+}
+.parent p:nth-last-child(2){
+    padding-bottom: 50px;
+    color: #F6F6F6;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+.parent .button button{
+    color: var(--Light-text, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    width: 236px;
+    padding: 16px 0px;
+    margin: auto;
+    border-radius: 30px;
+    background: none;
+
+}
+.parent .button button:hover{
+    background-color: #FA4A0C;
+}
+.parent .button{
+    padding-bottom: 100px;
+}
+.child1{
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+
+}
+.child1 img:nth-child(1){
+    width: 350px;
+    height: 586px;
+    position: relative;
+    bottom: 180px;
+    left: 160px;
+}
+.child1 .img{
+    width: 250px;
+    height: 431px;
+    position: relative;
+    bottom: 200px;
+    left: 30px;
+}
+hr{
+    background: #E4E4E4;
+    max-width: 1000px;
+    height: 3px;
+    margin: auto;
+}
+h2{
+    padding-top: 50px;
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px; 
+}
+.menu{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu img{
+    width: 420px;
+    height: 525px;
+}
+.menu .box :nth-child(1){
+    color: #FA4A0C;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+.menu .box h3{
+    color: #252B42;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.menu .box p:nth-of-type(2){
+    color: #737373;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+}
+ .boxes img{
+    width: 269px;
+    height: 525px;
+
+ }
+ .box2  p:nth-child(1){
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+
+ }

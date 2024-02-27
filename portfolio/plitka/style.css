@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+font-family: Roboto;
+}
+header{
+    background-image: url(./victor-garcia-1263465-unsplash.png);
+    background-size: cover;
+}
+header nav{
+    /* border: 2px solid greenyellow; */
+     max-width: 1000px;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header nav ul li{
+    padding: 21px 21px;
+}
+header nav ul a:hover{
+    color: #B78601;
+}
+.parent{
+    padding-top: 100px;
+    /* border: 2px solid blue; */
+    max-width: 1000px;
+    margin: auto;
+    display: block;
+}
+.parent p{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.parent p:nth-child(1){
+
+    color: #FFF;
+font-family: Roboto;
+font-size: 50px;
+}
+.parent h1{
+    color: #B78601;
+font-family: Roboto;
+font-size: 60px;
+font-weight: 400;
+}
+.parent button{
+    
+    margin-bottom: 90px;
+    border-radius: 35px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px 60px;
+    border: 1px solid #FFF;
+    background: none;
+}
+.parent p:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+h2{ max-width: 1000px;
+    margin: auto;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    color: #565656;
+font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    
+}
+main img{
+     width: 100%;
+
+}
+footer{
+   margin-top: 90px;
+    background-color: #181818;
+}
+.last{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.last div{
+    margin-left: 15px;
+}
+h4{
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 140px;
+    margin-bottom: 90px;
+}
+.last div h5{
+    font-family: Roboto;
+font-size: 22px;
+margin-top: 27px;
+margin-bottom: 27px;
+}
+.last div p{
+    width: 300px;
+    height: 150px;
+}
